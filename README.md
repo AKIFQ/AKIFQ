@@ -1,10 +1,10 @@
-# 👋 Hi, I'm Akif Azher Qureshi
+#  Hi, I'm Akif Azher Qureshi
 
-🎓 I'm a Master's student in Computer Science at Pace University, New York — passionate about building efficient and scalable software solutions. I have a strong foundation in full-stack web development, cloud systems, and database architectures. With a background in both teaching and engineering, I love simplifying complex concepts and creating real-world impact through code.
+I'm a Master's student in Computer Science at Pace University, New York — passionate about building efficient and scalable software solutions. I have a strong foundation in full-stack web development, cloud systems, and database architectures. With a background in both teaching and engineering, I love simplifying complex concepts and creating real-world impact through code.
 
 ---
 
-## 🚀 Technical Stack
+## Technical Stack
 
 - **Languages:** Java, JavaScript, Python  
 - **Frontend:** React.js, Tailwind CSS, Ionic, HTML5, CSS3  
@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠️ Projects
+##  Projects
 
 ### 🛒 [Ordelo](https://github.com/ozzyozbourne/ordelo/tree/akif)  
 A recipe management and grocery delivery platform  
@@ -30,14 +30,14 @@ A frontend wallet interface for Ethereum
 - Solidity contracts tested with Hardhat (90%+ coverage)  
 - Transaction time reduced via optimized smart contract calls  
 
-### 🌐 [Portfolio Website](https://webpage.pace.edu/AQ84382N/Portfolio/)  
+###  [Portfolio Website](https://webpage.pace.edu/AQ84382N/Portfolio/)  
 Personal site built with mobile-first design principles  
 - Vanilla JS + HTML5 + CSS3 with modular CSS structure  
 - Semantic markup, responsive breakpoints, and accessible UX  
 
 ---
 
-## 📱 Progressive Web Apps & Service Workers
+##  Progressive Web Apps & Service Workers
 
 I specialize in building Progressive Web Apps (PWAs) that offer native-like experiences directly in the browser. By leveraging Service Workers, I ensure:
 
@@ -48,7 +48,7 @@ I specialize in building Progressive Web Apps (PWAs) that offer native-like expe
 
 ---
 
-## 👨‍🏫 Teaching & Mentorship
+# 👨‍🏫 Teaching & Mentorship
 
 **Software Development Intern @ Pantech E-learning Pvt Ltd**  
 - Delivered tutorials on Java, JavaScript, React.js, and Python  
@@ -57,13 +57,13 @@ I specialize in building Progressive Web Apps (PWAs) that offer native-like expe
 
 ---
 
-## 📫 Let's Connect
+##  Let's Connect
 
-- 📍 Based in New York City  
-- 📧 akifazherq@gmail.com  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/akifq)  
-- 🧠 Exploring the intersection of software, AI, and healthcare innovation
+-  Based in New York City  
+-  akifazherq@gmail.com  
+-  [LinkedIn](https://www.linkedin.com/in/akifq)  
+-  Exploring the intersection of software, AI, and healthcare innovation
 
 ---
 
-🔧 *Currently enhancing my skills in AI/ML, distributed systems, and large-scale application design.*  
+*Currently enhancing my skills in AI/ML, distributed systems, and large-scale application design.*  
