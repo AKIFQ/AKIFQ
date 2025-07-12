@@ -9,7 +9,7 @@
 <!-- Shields badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="="https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-%2347A248?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/LLM%20Prompts-%23FFB000?style=for-the-badge" />
@@ -18,7 +18,7 @@
 
 ---
 
-### Core Toolkit
+### 🛠️ Core Toolkit
 | Layer | Tech |
 | :---  | :--- |
 | **Interfaces** | React · Tailwind CSS |
@@ -29,39 +29,68 @@
 
 ---
 
-### Projects
+### 🚀 Key Projects
 
-#### **Zed – Shadow VCS for AI Agents**
-*CLI tool that lets autonomous agents stage, fingerprint, and diff code safely before it reaches a production Git repo.*  
-- **Isolation:** Agent output lives in `.zed/commits/*` until approved.  
-- **Provenance:** Each commit carries a SHA-256 fingerprint and agent-confidence score.  
-- **Policy hooks:** Pre-merge checks (tests, lint, risk heuristics) run automatically.  
-- **Roadmap:** Multi-agent audit trails, GPT-powered commit summaries, and MCP context caching.
+#### **ZED – Shadow VCS for AI Agents**
+<details>
+<summary>Local-first staging VCS that quarantines, fingerprints & risk-scores AI-generated code before it reaches Git.</summary>
 
-#### **Ordelo** &nbsp;·&nbsp; *Recipe & Grocery Platform*  
-Full-stack MERN app connecting local vendors to shoppers via smart recipe lists.  
-- **Smart Cart:** Parses chosen recipes to auto-generate grocery lists.  
-- **Adaptive Caching:** Apollo + Redis layer slashes repeated API calls by 60 %.  
-- **Scalable Schema:** Nested MongoDB documents for multi-vendor, multi-item orders.  
-- **UX Touches:** Context API + custom hooks keep state lean and predictable.
+# ZED (Shadow VCS) – A Revolutionary Staging Version Control System for AI-Assisted Development
 
-#### **Ether Wallet** &nbsp;·&nbsp; *Ethereum Transaction Interface*  
-React front-end for sending, signing, and viewing ETH transactions.  
-- **Performance:** Built with Vite; first-paint in < 500 ms on mobile 4G.  
-- **Web3 Integration:** Ethers.js handles wallet connections across MetaMask, WalletConnect.  
-- **Smart Contracts:** Solidity contracts tested at > 90 % coverage via Hardhat CI.  
-- **Gas Optimizations:** Batch-call pattern drops average confirmation to ~10 s on Goerli.
+## What is ZED?
+**ZED** is a local-first staging VCS that sits between AI agents (or any code generator) and your production Git repo, acting as a “spam filter for code.”
 
-#### **Portfolio Site**  
-Mobile-first personal website showcasing projects and writing.  
-- **Vanilla Stack:** HTML5, CSS Grid/Flexbox, ES6 modules—no heavy frameworks.  
-- **Accessibility:** WCAG-AA color contrast, semantic landmarks, ARIA labels.  
-- **Modular CSS:** Component-scoped utility classes with BEM-style naming.  
-- **Offline Ready:** Service-worker caches critical assets for zero-latency revisits.
+## Why it matters
+1. Catches vulnerabilities, hard-coded secrets, unsafe patterns  
+2. Creates a tamper-proof audit trail for compliance  
+3. Gives humans the final word on agent commits  
+4. Automates risk scoring & policy gates  
+5. Keeps all code private and offline
+
+## How it works
+```
+AI Agent → ZED (Staging) → Human Review → Production Git
+```
+* Commit quarantine in `.zed/commits/*`  
+* SQLite audit DB + SHA-256 fingerprints  
+* YAML policy engine (auto-approve, flag, block)  
+* Risk factors: file sensitivity, secret scans, binary size, deletion patterns
+
+## CLI quick-start
+```bash
+pip install zedai
+zed init
+echo 'print("hello")' > hello.py
+zed commit -m "AI: add hello"
+zed review <id> && zed approve <id>
+```
+
+Future roadmap: LangChain hooks, multi-agent audit trails, CI/CD glue, team roles.
+
+</details>
+
+#### **Ordelo** · Recipe & Grocery Platform  
+Full-stack MERN service connecting local vendors to shoppers.  
+- Led end-to-end build with **MongoDB, React, Node, Express**  
+- Context API + custom hooks reduced code complexity by **40 %**  
+- Intelligent caching layer cut external API traffic **60 %** and enabled offline mode  
+- Nested MongoDB schema supports multi-vendor ordering at scale  
+
+#### **Ether Wallet** · Ethereum Transaction UI  
+Lightweight React front-end for sending, signing, and monitoring ETH transfers.  
+- **Vite-powered** build trims load times ~40 %  
+- **Ethers.js** handles wallet connections; 100 + test-net txs validated  
+- Solidity contracts > 90 % coverage via **Hardhat** CI; avg confirmation ↓ to ~10 s  
+
+#### **Personal Portfolio** · akifq.com  
+Mobile-first site showcasing work & writing.  
+- Vanilla **HTML5/CSS3/JS** with modular, BEM-style CSS  
+- Semantic markup, WCAG-AA contrast, responsive breakpoints at 700 px & 1000 px  
+- Service-worker cache for instant repeat visits  
 
 ---
 
-### Current Focus
+### ✍️ Current Focus
 <details>
   <summary>Agentic AI & Prompt Engineering</summary>
 
@@ -72,7 +101,7 @@ Mobile-first personal website showcasing projects and writing.
 
 ---
 
-### Reach Me
+### 👋 Reach Me
 - 📍 New York City  
 - ✉️ akifazherq@gmail.com  
 - 🌐 [LinkedIn](https://www.linkedin.com/in/akifq)
