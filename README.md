@@ -18,7 +18,7 @@
 
 ---
 
-### 🛠️ Core Toolkit
+### Core Toolkit
 | Layer | Tech |
 | :---  | :--- |
 | **Interfaces** | React · Tailwind CSS |
@@ -29,13 +29,13 @@
 
 ---
 
-### 🚀 Key Projects
+### Projects
 
 #### **ZED – Shadow VCS for AI Agents**
 <details>
 <summary>Local-first staging VCS that quarantines, fingerprints & risk-scores AI-generated code before it reaches Git.</summary>
 
-# ZED (Shadow VCS) – A Revolutionary Staging Version Control System for AI-Assisted Development
+# ZED (Shadow VCS) – A Staging Version Control System for AI Agents
 
 ## What is ZED?
 **ZED** is a local-first staging VCS that sits between AI agents (or any code generator) and your production Git repo, acting as a “spam filter for code.”
@@ -69,7 +69,7 @@ Future roadmap: LangChain hooks, multi-agent audit trails, CI/CD glue, team role
 
 </details>
 
-#### **Ordelo** · Recipe & Grocery Platform  
+#### [**Ordelo** · Recipe & Grocery Platform](https://ordelo.org/)
 Full-stack MERN service connecting local vendors to shoppers.  
 - Led end-to-end build with **MongoDB, React, Node, Express**  
 - Context API + custom hooks reduced code complexity by **40 %**  
@@ -82,7 +82,7 @@ Lightweight React front-end for sending, signing, and monitoring ETH transfers.
 - **Ethers.js** handles wallet connections; 100 + test-net txs validated  
 - Solidity contracts > 90 % coverage via **Hardhat** CI; avg confirmation ↓ to ~10 s  
 
-#### **Personal Portfolio** · akifq.com  
+#### [**Personal Portfolio** · akifq.com](https://akifq.com/)
 Mobile-first site showcasing work & writing.  
 - Vanilla **HTML5/CSS3/JS** with modular, BEM-style CSS  
 - Semantic markup, WCAG-AA contrast, responsive breakpoints at 700 px & 1000 px  
@@ -90,7 +90,7 @@ Mobile-first site showcasing work & writing.
 
 ---
 
-### ✍️ Current Focus
+### Current Focus
 <details>
   <summary>Agentic AI & Prompt Engineering</summary>
 
@@ -104,7 +104,7 @@ Mobile-first site showcasing work & writing.
 ### 👋 Reach Me
 - 📍 New York City  
 - ✉️ akifazherq@gmail.com  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/akifq)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/akifqureshi/)
 
 <p align="center">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/AKIFQ&title=Profile+Visits" alt="visit counter"/>
