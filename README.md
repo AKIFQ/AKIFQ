@@ -31,14 +31,14 @@
 
 ### Projects
 
-#### **ZED – Shadow VCS for AI Agents**
+#### **SAV – Shadow VCS for AI Agents**
 <details>
 <summary>Local-first staging VCS that quarantines, fingerprints & risk-scores AI-generated code before it reaches Git.</summary>
 
-# ZED (Shadow VCS) – A Staging Version Control System for AI Agents
+# SAV (Shadow VCS) – A Staging Version Control System for AI Agents
 
-## What is ZED?
-**ZED** is a local-first staging VCS that sits between AI agents (or any code generator) and your production Git repo, acting as a “spam filter for code.”
+## What is SAV?
+**SAV** is a local-first staging VCS that sits between AI agents (or any code generator) and your production Git repo, acting as a “spam filter for code.”
 
 ## Why it matters
 1. Catches vulnerabilities, hard-coded secrets, unsafe patterns  
@@ -49,20 +49,20 @@
 
 ## How it works
 ```
-AI Agent → ZED (Staging) → Human Review → Production Git
+AI Agent → SAV (Staging) → Human Review → Production Git
 ```
-* Commit quarantine in `.zed/commits/*`  
+* Commit quarantine in `.sav/commits/*`  
 * SQLite audit DB + SHA-256 fingerprints  
 * YAML policy engine (auto-approve, flag, block)  
 * Risk factors: file sensitivity, secret scans, binary size, deletion patterns
 
 ## CLI quick-start
 ```bash
-pip install zedai
-zed init
+pip install savai
+sav init
 echo 'print("hello")' > hello.py
-zed commit -m "AI: add hello"
-zed review <id> && zed approve <id>
+sav commit -m "AI: add hello"
+sav review <id> && sav approve <id>
 ```
 
 Future roadmap: LangChain hooks, multi-agent audit trails, CI/CD glue, team roles.
